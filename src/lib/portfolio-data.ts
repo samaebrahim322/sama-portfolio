@@ -171,6 +171,7 @@ const WEBSITES: [string, string, string][] = [
   ["Badr Store", "https://badrstoreeg.com/", "p (8).jpeg"],
   ["Sanrux", "https://sanrux.com/", "p (10).jpeg"],
   ["King Billiard Cafe", "https://kingbillardcafe.de/", "p (7).jpeg"],
+  ["Hajjaj Contracting", "https://hajjajcontracting.com/", "p (15).jpeg"]
 ];
 
 export const PROJECTS: Project[] = [
