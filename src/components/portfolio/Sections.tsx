@@ -4,6 +4,7 @@ import { CONTACT, EXPERIENCE, SKILLS } from "@/lib/portfolio-data";
 import { Chip, Reveal, SectionHeading } from "./shared";
 import { GithubIcon } from "./icons";
 import { toast } from "sonner";
+// import { CONTACT } from "@/assets/Sama_Ibrahim_goda.pdf"
 
 const wrap = "mx-auto max-w-7xl px-5 md:px-8";
 

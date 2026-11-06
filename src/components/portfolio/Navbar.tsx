@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { NAV } from "@/lib/portfolio-data";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/sama-logo.png.asset.json";
+import logo from "@/assets/sama-logo.png";
 
 export function Navbar() {
   const [active, setActive] = useState("home");
@@ -27,7 +27,7 @@ export function Navbar() {
     <header className={cn("fixed inset-x-0 top-0 z-50 transition-all duration-300", scrolled ? "border-b border-border bg-background/70 backdrop-blur-xl" : "bg-transparent")}>
       <nav className="mx-auto flex h-18 max-w-7xl items-center justify-between px-5 py-3 md:px-8" aria-label="Main">
         <a href="#home" className="flex items-center gap-2" aria-label="Sama Ibrahim — home">
-          <img src={logo.url} alt="Sama Ibrahim logo" className="size-10 object-contain" width={40} height={40} />
+          <img src={logo} alt="Sama Ibrahim logo" className="size-30 object-contain" width={40} height={40} />
         </a>
         <ul className="hidden items-center gap-1 lg:flex">
           {NAV.map((n) => (
