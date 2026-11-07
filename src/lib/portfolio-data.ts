@@ -156,17 +156,13 @@ export const projectHost = (url: string) =>
 const WEBSITES: [string, string, string][] = [
   ["Plana365", "https://plana365.com/", "p (2).jpeg"],
   ["Orascom Company", "https://orascompco.com/", "p (14).jpeg"],
-    ["Baronholidays", "https://baronholidays.com/", "p (11).jpeg"],
-    ["smartcarebugs","https://smartcarebugs.com/", "p (18).jpeg"],
+  ["Baronholidays", "https://baronholidays.com/", "p (11).jpeg"],
+  ["smartcarebugs", "https://smartcarebugs.com/", "p (18).jpeg"],
   ["Maro", "https://maro.orascompco.com/", "p (13).jpeg"],
   ["Al Shahm UAE", "https://alshahmuae.com/", "p (1).jpeg"],
   ["Osus Rawad Al Emar", "https://osusrawaedalemar.com/", "p (12).jpeg"],
   ["Loop Express", "https://loopexpress.ae/", "p (9).jpeg"],
-  [
-    "Alyakoot Trading",
-    "https://alyakoottrading.alshahmuae.com/",
-    "p (4).jpeg",
-  ],
+  ["Alyakoot Trading", "https://alyakoottrading.alshahmuae.com/", "p (4).jpeg"],
   ["Royal Bloome Events", "https://royalbloome.events/", "p (5).jpeg"],
   ["Bonbon", "https://bonbonc.com/", "p (3).jpeg"],
   ["Badr Store", "https://badrstoreeg.com/", "p (8).jpeg"],
@@ -174,8 +170,7 @@ const WEBSITES: [string, string, string][] = [
   ["King Billiard Cafe", "https://kingbillardcafe.de/", "p (7).jpeg"],
   ["Hajjaj Contracting", "https://hajjajcontracting.com/", "p (15).jpeg"],
   ["Asmat Dental Center", "https://asmatdentalcenter.ae/", "p (16).jpeg"],
-  ["شذا الرمال", "https://storetwo.plana365.com/", "p (17).jpeg"]
-  
+  ["شذا الرمال", "https://storetwo.plana365.com/", "p (17).jpeg"],
 ];
 
 export const PROJECTS: Project[] = [
