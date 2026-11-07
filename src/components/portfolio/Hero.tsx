@@ -62,7 +62,7 @@ export function Hero() {
             Front-End Developer
           </motion.p>
           <motion.p {...fade(4)} className="mt-2 font-mono text-sm text-primary-glow">
-            WordPress | Next.js | React | JavaScript
+             Next.js | React | JavaScript | WordPress 
           </motion.p>
           <motion.p
             {...fade(5)}
